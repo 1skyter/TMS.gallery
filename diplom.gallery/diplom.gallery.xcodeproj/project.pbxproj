@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		008F08E629C3AD6A00D75EBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F08E529C3AD6A00D75EBE /* AppDelegate.swift */; };
 		008F08E829C3AD6A00D75EBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F08E729C3AD6A00D75EBE /* SceneDelegate.swift */; };
-		008F08EA29C3AD6A00D75EBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F08E929C3AD6A00D75EBE /* ViewController.swift */; };
 		008F08ED29C3AD6A00D75EBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008F08EB29C3AD6A00D75EBE /* Main.storyboard */; };
 		008F08EF29C3AD6B00D75EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008F08EE29C3AD6B00D75EBE /* Assets.xcassets */; };
 		008F08F229C3AD6B00D75EBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008F08F029C3AD6B00D75EBE /* LaunchScreen.storyboard */; };
+		008F08FB29C3AEA100D75EBE /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F08FA29C3AEA100D75EBE /* MainCollectionViewCell.swift */; };
+		008F08FE29C3AF3300D75EBE /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F08FD29C3AF3300D75EBE /* UIViewController+Extensions.swift */; };
+		008F090029C3B13700D75EBE /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F08FF29C3B13700D75EBE /* UIView+Extension.swift */; };
+		008F090429C3B4EB00D75EBE /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F090329C3B4EB00D75EBE /* UserDefaults+Extension.swift */; };
+		008F090729C3B57100D75EBE /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F090629C3B57100D75EBE /* StorageManager.swift */; };
+		008F090929C3B82200D75EBE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F090829C3B82200D75EBE /* User.swift */; };
+		008F090D29C3BA2800D75EBE /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F090C29C3BA2800D75EBE /* Image.swift */; };
+		008F091029C3CCA900D75EBE /* EnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F090F29C3CCA900D75EBE /* EnterViewController.swift */; };
+		008F091229C3CE4B00D75EBE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F091129C3CE4B00D75EBE /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		008F08E229C3AD6A00D75EBE /* diplom.gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diplom.gallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		008F08E529C3AD6A00D75EBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		008F08E729C3AD6A00D75EBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		008F08E929C3AD6A00D75EBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		008F08EC29C3AD6A00D75EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		008F08EE29C3AD6B00D75EBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		008F08F129C3AD6B00D75EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		008F08F329C3AD6B00D75EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008F08FA29C3AEA100D75EBE /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		008F08FD29C3AF3300D75EBE /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		008F08FF29C3B13700D75EBE /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		008F090329C3B4EB00D75EBE /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		008F090629C3B57100D75EBE /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		008F090829C3B82200D75EBE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		008F090C29C3BA2800D75EBE /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		008F090F29C3CCA900D75EBE /* EnterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterViewController.swift; sourceTree = "<group>"; };
+		008F091129C3CE4B00D75EBE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,55 @@
 		008F08E429C3AD6A00D75EBE /* diplom.gallery */ = {
 			isa = PBXGroup;
 			children = (
+				008F090E29C3CC9400D75EBE /* Controllers */,
+				008F090529C3B56200D75EBE /* Helpers */,
+				008F08FC29C3AEF500D75EBE /* Extensions */,
+				008F08F929C3AE8400D75EBE /* Cells */,
 				008F08E529C3AD6A00D75EBE /* AppDelegate.swift */,
 				008F08E729C3AD6A00D75EBE /* SceneDelegate.swift */,
-				008F08E929C3AD6A00D75EBE /* ViewController.swift */,
 				008F08EB29C3AD6A00D75EBE /* Main.storyboard */,
 				008F08EE29C3AD6B00D75EBE /* Assets.xcassets */,
 				008F08F029C3AD6B00D75EBE /* LaunchScreen.storyboard */,
 				008F08F329C3AD6B00D75EBE /* Info.plist */,
 			);
 			path = diplom.gallery;
+			sourceTree = "<group>";
+		};
+		008F08F929C3AE8400D75EBE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				008F08FA29C3AEA100D75EBE /* MainCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		008F08FC29C3AEF500D75EBE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				008F08FD29C3AF3300D75EBE /* UIViewController+Extensions.swift */,
+				008F08FF29C3B13700D75EBE /* UIView+Extension.swift */,
+				008F090329C3B4EB00D75EBE /* UserDefaults+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		008F090529C3B56200D75EBE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				008F090629C3B57100D75EBE /* StorageManager.swift */,
+				008F090829C3B82200D75EBE /* User.swift */,
+				008F090C29C3BA2800D75EBE /* Image.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		008F090E29C3CC9400D75EBE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				008F090F29C3CCA900D75EBE /* EnterViewController.swift */,
+				008F091129C3CE4B00D75EBE /* MainViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +194,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				008F08EA29C3AD6A00D75EBE /* ViewController.swift in Sources */,
+				008F090029C3B13700D75EBE /* UIView+Extension.swift in Sources */,
+				008F090729C3B57100D75EBE /* StorageManager.swift in Sources */,
+				008F091229C3CE4B00D75EBE /* MainViewController.swift in Sources */,
 				008F08E629C3AD6A00D75EBE /* AppDelegate.swift in Sources */,
+				008F08FE29C3AF3300D75EBE /* UIViewController+Extensions.swift in Sources */,
 				008F08E829C3AD6A00D75EBE /* SceneDelegate.swift in Sources */,
+				008F090429C3B4EB00D75EBE /* UserDefaults+Extension.swift in Sources */,
+				008F090929C3B82200D75EBE /* User.swift in Sources */,
+				008F090D29C3BA2800D75EBE /* Image.swift in Sources */,
+				008F091029C3CCA900D75EBE /* EnterViewController.swift in Sources */,
+				008F08FB29C3AEA100D75EBE /* MainCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
