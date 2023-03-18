@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		008D836529C45ED800CB033C /* ImageAddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008D836429C45ED800CB033C /* ImageAddingViewController.swift */; };
+		008D836729C45EF000CB033C /* ImageEdittingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008D836629C45EF000CB033C /* ImageEdittingViewController.swift */; };
 		008F08E629C3AD6A00D75EBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F08E529C3AD6A00D75EBE /* AppDelegate.swift */; };
 		008F08E829C3AD6A00D75EBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F08E729C3AD6A00D75EBE /* SceneDelegate.swift */; };
 		008F08ED29C3AD6A00D75EBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008F08EB29C3AD6A00D75EBE /* Main.storyboard */; };
@@ -14,7 +16,6 @@
 		008F08F229C3AD6B00D75EBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008F08F029C3AD6B00D75EBE /* LaunchScreen.storyboard */; };
 		008F08FB29C3AEA100D75EBE /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F08FA29C3AEA100D75EBE /* MainCollectionViewCell.swift */; };
 		008F08FE29C3AF3300D75EBE /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F08FD29C3AF3300D75EBE /* UIViewController+Extensions.swift */; };
-		008F090029C3B13700D75EBE /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F08FF29C3B13700D75EBE /* UIView+Extension.swift */; };
 		008F090429C3B4EB00D75EBE /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F090329C3B4EB00D75EBE /* UserDefaults+Extension.swift */; };
 		008F090729C3B57100D75EBE /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F090629C3B57100D75EBE /* StorageManager.swift */; };
 		008F090929C3B82200D75EBE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F090829C3B82200D75EBE /* User.swift */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		008D836429C45ED800CB033C /* ImageAddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAddingViewController.swift; sourceTree = "<group>"; };
+		008D836629C45EF000CB033C /* ImageEdittingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEdittingViewController.swift; sourceTree = "<group>"; };
 		008F08E229C3AD6A00D75EBE /* diplom.gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diplom.gallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		008F08E529C3AD6A00D75EBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		008F08E729C3AD6A00D75EBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +36,6 @@
 		008F08F329C3AD6B00D75EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		008F08FA29C3AEA100D75EBE /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		008F08FD29C3AF3300D75EBE /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
-		008F08FF29C3B13700D75EBE /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		008F090329C3B4EB00D75EBE /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
 		008F090629C3B57100D75EBE /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		008F090829C3B82200D75EBE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -98,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				008F08FD29C3AF3300D75EBE /* UIViewController+Extensions.swift */,
-				008F08FF29C3B13700D75EBE /* UIView+Extension.swift */,
 				008F090329C3B4EB00D75EBE /* UserDefaults+Extension.swift */,
 			);
 			path = Extensions;
@@ -119,6 +120,8 @@
 			children = (
 				008F090F29C3CCA900D75EBE /* EnterViewController.swift */,
 				008F091129C3CE4B00D75EBE /* MainViewController.swift */,
+				008D836429C45ED800CB033C /* ImageAddingViewController.swift */,
+				008D836629C45EF000CB033C /* ImageEdittingViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -194,9 +197,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				008F090029C3B13700D75EBE /* UIView+Extension.swift in Sources */,
 				008F090729C3B57100D75EBE /* StorageManager.swift in Sources */,
 				008F091229C3CE4B00D75EBE /* MainViewController.swift in Sources */,
+				008D836529C45ED800CB033C /* ImageAddingViewController.swift in Sources */,
 				008F08E629C3AD6A00D75EBE /* AppDelegate.swift in Sources */,
 				008F08FE29C3AF3300D75EBE /* UIViewController+Extensions.swift in Sources */,
 				008F08E829C3AD6A00D75EBE /* SceneDelegate.swift in Sources */,
@@ -205,6 +208,7 @@
 				008F090D29C3BA2800D75EBE /* Image.swift in Sources */,
 				008F091029C3CCA900D75EBE /* EnterViewController.swift in Sources */,
 				008F08FB29C3AEA100D75EBE /* MainCollectionViewCell.swift in Sources */,
+				008D836729C45EF000CB033C /* ImageEdittingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

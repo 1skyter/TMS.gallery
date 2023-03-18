@@ -83,12 +83,12 @@ class StorageManager {
     
     func updateImage(
         imageName: String,
-        Comment: String,
+        comment: String,
         isLiked: Bool) {
         var images = getImages() ?? []
         
         if let index = images.firstIndex(where: { $0.imageName == imageName }) {
-            images[index].comment = Comment
+            images[index].comment = comment
             images[index].isLiked = isLiked
         }
         userDefault.set(encodable: images, forKey: self.loggedInUser)

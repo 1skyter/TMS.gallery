@@ -13,6 +13,7 @@ class EnterViewController: UIViewController {
     @IBOutlet weak var signInButton_imao: UIButton!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var signUpButton_etm: UIButton!
+    @IBOutlet weak var bottomConstraint: NSLayoutConstraint!
     
     private let mainViewController = "MainViewController"
     private let storageManager = StorageManager.shared
@@ -20,8 +21,36 @@ class EnterViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        self.registerForKeyboardNotifications()
+        self.addTapRecognizer()
     }
+    
+    private func registerForKeyboardNotifications() {
+            NotificationCenter.default.addObserver(self,
+                                                   selector: #selector(keyboardChanged(_:)),
+                                                   name: UIResponder.keyboardWillShowNotification,
+                                                   object: nil)
+            NotificationCenter.default.addObserver(self,
+                                                   selector: #selector(keyboardChanged(_:)),
+                                                   name: UIResponder.keyboardWillHideNotification,
+                                                   object: nil)
+        }
+
+        @objc func keyboardChanged(_ notification: NSNotification) {
+            guard let userInfo = notification.userInfo,
+                  let duration = (userInfo[UIResponder.keyboardAnimationDurationUserInfoKey] as? NSNumber)?.doubleValue,
+                  let frame = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue else { return }
+            
+            if notification.name == UIResponder.keyboardWillHideNotification {
+                bottomConstraint.constant = 140
+            } else {
+                bottomConstraint.constant = frame.height * 0.85
+            }
+            
+            UIView.animate(withDuration: duration) {
+                self.view.layoutIfNeeded()
+            }
+        }
     
     @IBAction func signInButtonPressed_imao(_ sender: UIButton) {
         self.signInUser()
